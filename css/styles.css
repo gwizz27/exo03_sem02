@@ -138,6 +138,11 @@ header {
         Référence pour l'arrière-plan multiple :
             https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Backgrounds_and_Borders/Utiliser_plusieurs_arri%C3%A8re-plans
     */
+  
+  background-image: url(../images/nageur.svg), url(../images/ombrelle.svg) , linear-gradient(to bottom, #a7cedd,#265488);
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: 5% 50%,95% 50%,center;
+  background-size: 50px  50px, 50px 50px, 100%;
 }
 
 .bouton2 span {
